@@ -5,7 +5,23 @@ import "./globals.css";
 
 // const inter = Inter({ subsets: ["latin"] });
 const apercu = localFont({
-  src: "../../public/fonts/Apercu Pro.woff",
+  src: [
+    {
+      path: "../../public/fonts/ApercuPro-Regular.woff2",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../../public/fonts/ApercuPro-Thin.woff2",
+      weight: "100",
+      style: "normal",
+    },
+    {
+      path: "../../public/fonts/ApercuPro-Light.woff2",
+      weight: "200",
+      style: "normal",
+    },
+  ],
   display: "swap",
 });
 
