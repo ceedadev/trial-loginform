@@ -78,7 +78,7 @@ export default function SignupForm() {
       <div className="flex flex-row space-x-4 items-start">
         <input type="checkbox" className="accent-black mt-1 h-4 w-4" />
         <p className="text-[14px] ml-2">
-          I agree to Typeform's{" "}
+          I agree to Typeform&apos;s{" "}
           <a href="#" className="underline">
             Terms of Service
           </a>{" "}
